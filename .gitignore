@@ -1,0 +1,20 @@
+# 编译产物
+*.o
+*.so
+*.dll
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# Ninja 临时文件
+.ninja_deps
+.ninja_log
+build.ninja
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 输出文件
+*.out
